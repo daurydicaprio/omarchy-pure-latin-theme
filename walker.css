@@ -1,0 +1,11 @@
+/*
+ * Pure-Latin Theme: Walker/Wofi Colors
+ * Minimalist dark grey palette.
+ */
+
+@define-color selected-text    #5E81AC; /* Using our new darker blue for selected text */
+@define-color text             #D3DEE9; /* Default soft white text */
+@define-color base             #262A33; /* Dark charcoal background */
+@define-color border           #333842; /* Very dark blue-grey accent for the border */
+@define-color foreground       #D3DEE9; /* Fallback text color */
+@define-color background       #262A33; /* Fallback background color */

@@ -1,0 +1,7 @@
+/* Pure-Latin Theme: SwayOSD Style */
+
+@define-color background-color #262A33; /* Dark charcoal background */
+@define-color border-color     #333842; /* Subtle dark grey-blue border */
+@define-color label            #D3DEE9; /* Soft off-white text */
+@define-color image            #D3DEE9; /* Soft off-white icon */
+@define-color progress         #D3DEE9; /* Soft off-white progress bar */

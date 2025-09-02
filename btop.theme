@@ -1,0 +1,69 @@
+# Theme: Pure-Latin (Monochromatic Blue/Grey)
+    # Designed by Daury & Gemini
+
+    # Main background and text
+    theme[main_bg]="#262A33"
+    theme[main_fg]="#D3DEE9"
+
+    # Title color for boxes - using the darker grey accent
+    theme[title]="#D3DEE9"
+
+    # Highlight color for keyboard shortcuts
+    theme[hi_fg]="#5E81AC"
+
+    # Selected item in processes box
+    theme[selected_bg]="#333842"
+    theme[selected_fg]="#D3DEE9"
+
+    # Color of inactive/disabled text
+    theme[inactive_fg]="#4C566A"
+
+    # Misc colors for text details
+    theme[proc_misc]="#D3DEE9"
+
+    # Box outlines - using our subtle dark grey accent
+    theme[cpu_box]="#333842"
+    theme[mem_box]="#333842"
+    theme[net_box]="#333842"
+    theme[proc_box]="#333842"
+
+    # Box divider line
+    theme[div_line]="#333842"
+
+    # --- CUSTOM GRADIENTS (GREYS & BLUES) ---
+
+    # Temperature graph colors (Grey -> Blue -> Red for critical)
+    theme[temp_start]="#4C566A"
+    theme[temp_mid]="#5E81AC"
+    theme[temp_end]="#BF616A"
+
+    # CPU graph colors (Subtle blue gradient)
+    theme[cpu_start]="#81A1C1"
+    theme[cpu_mid]="#5E81AC"
+    theme[cpu_end]="#4C566A"
+
+    # Mem/Disk meters (Grey gradient)
+    theme[free_start]="#D3DEE9"
+    theme[free_mid]="#A9A9A9"
+    theme[free_end]="#808080"
+
+    theme[cached_start]="#808080"
+    theme[cached_mid]="#696969"
+    theme[cached_end]="#4C566A"
+
+    theme[available_start]="#D3DEE9"
+    theme[available_mid]="#A9A9A9"
+    theme[available_end]="#808080"
+
+    theme[used_start]="#4C566A"
+    theme[used_mid]="#333842"
+    theme[used_end]="#262A33"
+
+    # Network graphs (Blue gradient)
+    theme[download_start]="#88C0D0"
+    theme[download_mid]="#5E81AC"
+    theme[download_end]="#4C566A"
+
+    theme[upload_start]="#88C0D0"
+    theme[upload_mid]="#5E81AC"
+    theme[upload_end]="#4C566A"

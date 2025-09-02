@@ -1,0 +1,9 @@
+/*
+ * Pure-Latin Theme: Waybar Style
+ * Minimalist color definitions with a subtle dark accent.
+ */
+
+@define-color background       #262A33; /* Dark charcoal grey */
+@define-color foreground       #D3DEE9; /* Soft off-white */
+@define-color accent           #333842; /* Very dark blue-grey accent */
+@define-color selected-text    #D3DEE9; /* Text color for selected items */

@@ -1,9 +1,18 @@
 /*
  * Pure-Latin Theme: Waybar Style
- * Minimalist color definitions with a subtle dark accent.
+ * Uniform transparency fix.
  */
 
-@define-color background       rgba(38, 42, 51, 0.20); /* Dark charcoal grey with 20% opacity */
-@define-color foreground       #D3DEE9; /* Soft off-white */
-@define-color accent           #333842; /* Very dark blue-grey accent */
-@define-color selected-text    #D3DEE9; /* Text color for selected items */
+/* --- Color Palette --- */
+/* A version of our background color that is almost fully transparent */
+@define-color background       rgba(38, 42, 51, 0.01);
+
+@define-color foreground       #D3DEE9;
+@define-color accent           #333842;
+
+/* --- Main Bar Style --- */
+/* We force the main bar to use the background color we actually want */
+#waybar {
+    background-color: rgba(38, 42, 51, 0.60); /* #262A33 with 20% opacity */
+    color: @foreground;
+}

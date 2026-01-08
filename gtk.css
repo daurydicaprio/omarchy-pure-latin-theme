@@ -1,0 +1,85 @@
+/* ------------------------------------------------------------
+ * Pure-Latin v2.0 - GTK/GNOME Stylesheet
+ * Fully adapted to Pure-Latin palette.
+ * ------------------------------------------------------------ */
+
+/* --- Base Palette Definitions (from palette.yml) --- */
+@define-color primary_bg        #262A33; /* Core: primary_bg */
+@define-color secondary_bg      #333842; /* Core: secondary_bg (Used for borders) */
+@define-color tertiary_bg       #4C566A; /* Core: tertiary_bg (Used for selection base) */
+@define-color text_primary      #D3DEE9; /* Text: text_primary */
+@define-color primary_accent    #5E81AC; /* Accents: primary_accent */
+@define-color secondary_accent  #81A1C1; /* Accents: secondary_accent */
+@define-color success           #A3BE8C; /* Accents: success */
+@define-color warning           #EBCB8B; /* Accents: warning */
+@define-color error             #BF616A; /* Accents: error */
+
+
+/* --- Main UI Elements --- */
+@define-color accent_bg_color     @primary_accent;
+@define-color accent_fg_color     @text_primary;
+@define-color accent_color        @primary_accent;
+
+@define-color window_bg_color     @primary_bg;
+@define-color window_fg_color     @text_primary;
+
+@define-color view_bg_color       @primary_bg;
+@define-color view_fg_color       @text_primary;
+@define-color sidebar_bg_color    @primary_bg;
+@define-color sidebar_fg_color    @text_primary;
+@define-color card_bg_color       @secondary_bg;
+@define-color card_fg_color       @text_primary;
+
+@define-color popover_bg_color    @secondary_bg;
+@define-color popover_fg_color    @text_primary;
+
+
+/* --- Headerbar and Borders --- */
+@define-color headerbar_bg_color  @secondary_bg;
+@define-color headerbar_fg_color  @text_primary;
+@define-color headerbar_backdrop_color @primary_bg;
+@define-color borders             @secondary_bg; /* Subtle Border */
+
+
+/* --- State/Feedback Colors --- */
+@define-color destructive_bg_color  @error;
+@define-color destructive_fg_color  @text_primary;
+
+@define-color success_bg_color      @success;
+@define-color success_fg_color      @primary_bg;
+
+@define-color warning_bg_color      @warning;
+@define-color warning_fg_color      @primary_bg;
+
+@define-color error_bg_color        @error;
+@define-color error_fg_color        @primary_bg;
+
+
+/* --- Theme Consistency Mappings --- */
+@define-color theme_fg_color @text_primary;
+@define-color theme_text_color @text_primary;
+@define-color theme_bg_color @primary_bg;
+@define-color theme_base_color @primary_bg;
+@define-color theme_selected_bg_color @primary_accent;
+@define-color theme_selected_fg_color @text_primary;
+
+
+/* --- Unfocused and Insensitive (Dims) --- */
+@define-color theme_unfocused_bg_color @primary_bg;
+@define-color theme_unfocused_base_color @primary_bg;
+@define-color insensitive_bg_color @primary_bg;
+@define-color insensitive_fg_color @tertiary_bg; /* Tertiary BG for very dim text */
+@define-color unfocused_borders @secondary_bg;
+
+
+/* --- Import Adwaita Dark for a full style foundation --- */
+@import url("resource:///org/gnome/Adwaita/gtk-dark.css");
+
+/* --- Minimal Specific Rule Overrides --- */
+.view {
+    border-radius: 0;
+}
+
+headerbar {
+    border-radius: 0;
+}

@@ -1,47 +1,35 @@
-# ==========================================================
-#   Alacritty Configuration for Pure-Latin Theme (Full)
-# ==========================================================
+# ------------------------------------------------------------
+# Theme: Pure-Latin v2.0 - Alacritty Config
+# ------------------------------------------------------------
 
-# Window settings (optional, but good practice)
-[window]
-opacity = 0.95
-padding = { x = 10, y = 10 }
-
-# Font configuration (optional, but good practice)
-[font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-size = 12.0
-
-# ==========================================================
-#   COLOR PALETTE (PURE-LATIN REFINED)
-# ==========================================================
 [colors]
-# Primary colors
-primary = { background = "#262A33", foreground = "#D3DEE9" }
+draw_bold_text_with_bright_colors = true
 
-# Selection colors
-[colors.selection]
-text = "#262A33"
-background = "#4C566A" # A contrasting, but still dark, grey-blue
+[colors.primary]
+background = '#262A33' # Primary BG
+foreground = '#D3DEE9' # Primary Text
 
-# Normal colors
+[colors.cursor]
+text = '#262A33'
+cursor = '#5E81AC' # Primary Accent
+
+# Palette (Usando colores de tu tema)
 [colors.normal]
-black   = "#333842"
-red     = "#BF616A"
-green   = "#A3BE8C"
-yellow  = "#EBCB8B"
-blue    = "#5E81AC" # A darker, more muted blue
-magenta = "#B48EAD"
-cyan    = "#88C0D0"
-white   = "#D3DEE9"
+black = '#1E222A' # Base
+red = '#BF616A'   # Error
+green = '#A3BE8C' # Success
+yellow = '#EBCB8B' # Warning
+blue = '#5E81AC'
+magenta = '#8A7A8A'
+cyan = '#88C0D0'
+white = '#D3DEE9'
 
-# Bright colors
 [colors.bright]
-black   = "#4C566A"
-red     = "#BF616A"
-green   = "#A3BE8C"
-yellow  = "#EBCB8B"
-blue    = "#5E81AC"
-magenta = "#B48EAD"
-cyan    = "#88C0D0"
-white   = "#ECEFF4"
+black = '#333842'
+red = '#BF616A'
+green = '#A3BE8C'
+yellow = '#EBCB8B'
+blue = '#81A1C1'
+magenta = '#8A7A8A'
+cyan = '#88C0D0'
+white = '#D3DEE9'

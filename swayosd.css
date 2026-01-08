@@ -1,7 +1,26 @@
-/* Pure-Latin Theme: SwayOSD Style */
+/* ------------------------------------------------------------
+ * Pure-Latin v2.0 - SwayOSD Stylesheet
+ * ------------------------------------------------------------ */
+window {
+    background: rgba(38, 42, 51, 0.95);
+    border: 2px solid #5e81ac;
+    border-radius: 0px;
+}
 
-@define-color background-color #262A33; /* Dark charcoal background */
-@define-color border-color     #333842; /* Subtle dark grey-blue border */
-@define-color label            #D3DEE9; /* Soft off-white text */
-@define-color image            #D3DEE9; /* Soft off-white icon */
-@define-color progress         #D3DEE9; /* Soft off-white progress bar */
+#container {
+    padding: 10px;
+}
+
+#label {
+    color: #d3dee9;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+#bar {
+    background: #333842;
+    outline: 1px solid #4c566a;
+}
+
+#level {
+    background: #81a1c1; /* Slightly brighter blue for clarity */
+}

@@ -1,0 +1,45 @@
+# ------------------------------------------------------------
+# Theme: Pure-Latin v2.0
+# Author: Daury DiCaprio (daurydicaprio.com)
+# Description: High-contrast color mapping for Eza explorer.
+# (powered by #verygoodforlife and #holentia)
+# ------------------------------------------------------------
+
+colourful: true
+
+filekinds:
+  normal: {foreground: "#D3DEE9"}
+  directory: {foreground: "#5E81AC"}
+  symlink: {foreground: "#88C0D0"}
+  executable: {foreground: "#A3BE8C"}
+  mount_point: {foreground: "#88C0D0"}
+  special: {foreground: "#BF616A"}
+
+perms:
+  user_read: {foreground: "#D3DEE9"}
+  user_write: {foreground: "#EBCB8B"}
+  user_execute_file: {foreground: "#A3BE8C"}
+  group_read: {foreground: "#A9A9A9"}
+  other_read: {foreground: "#696969"}
+
+size:
+  number_byte: {foreground: "#D3DEE9"}
+  number_mega: {foreground: "#5E81AC"}
+  number_giga: {foreground: "#5E81AC"}
+  unit_byte: {foreground: "#696969"}
+
+git:
+  new: {foreground: "#A3BE8C"}
+  modified: {foreground: "#EBCB8B"}
+  deleted: {foreground: "#BF616A"}
+  ignored: {foreground: "#4C566A"}
+
+file_type:
+  image: {foreground: "#EBCB8B"}
+  video: {foreground: "#BF616A"}
+  music: {foreground: "#A3BE8C"}
+  source: {foreground: "#5E81AC"}
+  compressed: {foreground: "#5E81AC"}
+
+date: {foreground: "#81A1C1"}
+punctuation: {foreground: "#696969"}

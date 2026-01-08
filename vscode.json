@@ -1,0 +1,24 @@
+{
+  "//": "Theme: Pure-Latin v2.0 | Author: Daury DiCaprio | #holentia",
+  "workbench.colorCustomizations": {
+    "editor.background": "#262a33",
+    "sideBar.background": "#1e222a",
+    "sideBar.border": "#333842",
+    "activityBar.background": "#1e222a",
+    "activityBar.foreground": "#5e81ac",
+    "tab.activeBackground": "#262a33",
+    "tab.activeForeground": "#d3dee9",
+    "tab.activeBorder": "#5e81ac",
+    "statusBar.background": "#262a33",
+    "statusBar.border": "#333842",
+    "terminal.background": "#262a33",
+    "terminal.foreground": "#d3dee9",
+    "widget.shadow": "#00000000",
+    "focusBorder": "#333842"
+  },
+  "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+  "editor.fontSize": 12,
+  "editor.renderLineHighlight": "none",
+  "window.titleBarStyle": "custom",
+  "workbench.appearance.forceShadows": false
+}

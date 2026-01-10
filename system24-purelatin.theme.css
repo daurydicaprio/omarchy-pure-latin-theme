@@ -1,0 +1,71 @@
+/* ------------------------------------------------------------
+ * Pure-Latin v5.2 - System24 (Discord Industrial)
+ * Strategy: Sharp Corners & Deep Carbon Night Mode
+ * ------------------------------------------------------------ */
+
+@import url('https://refact0r.github.io/system24/build/system24.css');
+
+body {
+    /* Pure-Latin Visual Identity */
+    --font: 'Inter';
+    --code-font: 'JetBrainsMono Nerd Font';
+    font-weight: 400;
+    letter-spacing: -0.02ch;
+
+    /* Square Structure (Consistent with Hyprland rounding 0) */
+    --gap: 8px;
+    --divider-thickness: 1px;
+    --border-thickness: 1px;
+    --border-hover-transition: 0.1s ease;
+
+    /* Disable Rounded Corners */
+    --unrounding: on;
+
+    /* Interface Adjustments */
+    --animations: on;
+    --panel-labels: on;
+    --label-color: #E2E4E9;
+    --small-user-panel: on;
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar;
+}
+
+:root {
+    --colors: on;
+
+    /* Pure-Latin Palette (Dark Industrial) */
+    --text-0: #0F1115;     /* Dark text for light alerts */
+    --text-1: #FFFFFF;     /* Pure White Titles */
+    --text-2: #E2E4E9;     /* Aluminum Subtitles */
+    --text-3: #D1D5DB;     /* Body Text */
+    --text-4: #E2E4E9;     /* Icons and Channels */
+    --text-5: #636975;     /* Muted / Timestamps */
+
+    /* Backgrounds (Carbon) */
+    --bg-1: #1A1D23;       /* Click state / Surface 1 */
+    --bg-2: #16191E;       /* Button state / Surface 2 */
+    --bg-3: #363B46;       /* Spacing / Dividers */
+    --bg-4: #0F1115;       /* Main Background (Carbon) */
+    
+    --hover: #1A1D23;      /* Channel hover */
+    --active: rgba(255, 255, 255, 0.05);
+    --message-hover: #121419;
+
+    /* Industrial Accents */
+    --accent-1: #FFFFFF;   /* Links */
+    --accent-2: #FFFFFF;   /* UI Elements */
+    --accent-3: #E2E4E9;   /* Primary Buttons */
+    --accent-4: #FFFFFF;   /* Button Hover */
+    --accent-5: #D1D5DB;   /* Button Click */
+
+    /* Borders (Consistent with Hyprland/Waybar) */
+    --border-light: #1A1D23;
+    --border: #363B46;
+    --border-hover: #FFFFFF;
+
+    /* Status Colors (Soft Muted) */
+    --online: #869686;     /* Soft Green */
+    --dnd: #A67C7C;        /* Soft Red */
+    --idle: #B3A686;       /* Soft Yellow */
+    --offline: #636975;
+}

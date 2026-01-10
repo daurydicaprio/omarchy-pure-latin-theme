@@ -1,0 +1,24 @@
+# Pure-Latin v5.2 - Master Color Definition (Muted Industrial)
+accent = "#FFFFFF"
+cursor = "#FFFFFF"
+foreground = "#E2E4E9"
+background = "#0F1115"
+
+# ANSI Palette (Soft Muted Colors)
+color0 = "#0F1115" # Black
+color1 = "#A67C7C" # Soft Red
+color2 = "#869686" # Soft Green
+color3 = "#B3A686" # Soft Yellow
+color4 = "#7D8C99" # Soft Blue
+color5 = "#9E90A1" # Soft Magenta
+color6 = "#7D9999" # Soft Cyan
+color7 = "#E2E4E9" # White
+
+color8 = "#4B515D" # Bright Black
+color9 = "#A67C7C"
+color10 = "#869686"
+color11 = "#B3A686"
+color12 = "#7D8C99"
+color13 = "#9E90A1"
+color14 = "#7D9999"
+color15 = "#FFFFFF"

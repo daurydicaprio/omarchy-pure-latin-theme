@@ -1,53 +1,33 @@
-/* ------------------------------------------------------------
- * Theme: Pure-Latin v2.0 - Walker Launcher
- * Subtly High-Contrast Edition
- * ------------------------------------------------------------ */
+/* Pure-Latin v5.2 - Walker (Square & Sharp) */
+@define-color base rgba(15, 17, 21, 0.95);
 
-/* Colors imported from palette.yml */
-@define-color text             #D3DEE9;
-@define-color selected-text    #81A1C1;   /* Secondary Accent for selected text */
-@define-color base             #1E222A;   /* Input field background */
-@define-color background       #262A33;   /* Main window background */
-@define-color border           #5E81AC;   /* Primary Accent */
-@define-color selection_bg     #4C566A;   /* Tertiary BG for selection background */
-
-#window {
-    background-color: @background;
-    border: 2px solid @border;
-    border-radius: 0px;
-    padding: 10px;
+* {
+    all: unset;
+    font-family: "Inter", "JetBrainsMono Nerd Font";
+    font-size: 14px;
 }
 
-#input {
-    background-color: @base;
-    color: @text;
-    border: 1px solid @border;
-    border-radius: 0px;
-    margin-bottom: 12px;
+window {
+    background: transparent;
+}
+
+.box-wrapper {
+    background: @base;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0px; /* Force industrial square */
     padding: 12px;
-    font-family: "JetBrainsMono Nerd Font";
-    font-weight: bold;
 }
 
-#entry {
-    color: @text;
-    padding: 8px 12px;
+.search-container {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px;
+    margin-bottom: 10px;
     border-radius: 0px;
-    margin: 2px 0;
 }
 
-/* FIX: Subtle but clear visual feedback */
-#entry:selected, #entry.selected {
-    background-color: @selection_bg;
-    color: @selected-text;
-    outline: none;
+child:selected {
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #FFFFFF; /* Differentiation: Left border instead of bottom */
 }
 
-#label {
-    font-family: "JetBrainsMono Nerd Font";
-    font-size: 13px;
-}
-
-#icon {
-    margin-right: 10px;
-}
+.item-box { padding: 8px 16px; color: #E2E4E9; }

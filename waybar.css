@@ -1,60 +1,69 @@
 /* ------------------------------------------------------------
- * Pure-Latin v2.0 - Waybar Modern Soft Edition
- * Only the bar is rounded; windows remain sharp (N4 style).
+ * Pure-Latin v5.2 - Waybar (Minimalist Clone)
+ * Strategy: White-Man structure with Carbon palette
  * ------------------------------------------------------------ */
 
-@define-color primary_bg #262A33;
-@define-color text_primary #D3DEE9;
-@define-color secondary_accent #81A1C1;
+/* 1. VARIABLE DEFINITIONS */
+@define-color foreground #E2E4E9;
+@define-color accent     #FFFFFF;
+@define-color bar_bg     rgba(15, 17, 21, 0.70);
 
+/* 2. GLOBAL TEXT STYLING */
 * {
     border: none;
-    font-family: "JetBrainsMono Nerd Font";
+    font-family: "Inter", "Roboto", "Noto Sans", "JetBrainsMono Nerd Font", sans-serif;
     font-size: 11px;
-    margin: 0;
+    font-weight: bold;
+    
+    /* Subtle shadow for clarity without bloat */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    
     padding: 0;
-    /* Maintain legibility on transparent backgrounds */
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    margin: 0; 
 }
 
+/* 3. BASE WINDOW STYLES */
 window#waybar {
     background-color: transparent;
 }
 
 window#waybar > box {
-    background-color: rgba(38, 42, 51, 0.45);
-    /* Perfect symmetry margins: 8px top, 4px sides */
-    margin: 8px 4px 0 4px;
-    padding: 2px 10px;
-    
-    /* border-radius: 0px; # Sharp fallback for full rectangular look */
-    border-radius: 8px; 
-    
-    min-height: 25px;
-    border: 1px solid rgba(211, 222, 233, 0.1);
+    background-color: @bar_bg;
+    color: @foreground;
+    margin: 8px 8px 0 8px;
+    border-radius: 6px;
+    /* Border removed for absolute minimalism */
+    border: none;
+    min-height: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
-#workspaces, #clock, #battery, #cpu, #memory, #network, #pulseaudio, #tray, #custom-updater {
-    margin-top: -2px;
-    margin-bottom: -2px;
-    color: @text_primary;
-    padding: 0 6px;
-}
-
+/* 4. SYSTEM MODULES STYLING */
 #workspaces button {
-    color: rgba(211, 222, 233, 0.4);
-    padding: 0 4px;
+    padding: 0 6px;
+    margin: 0 1.5px;
+    color: rgba(226, 228, 233, 0.4); 
 }
 
 #workspaces button.active {
-    color: @secondary_accent;
+    color: @accent; 
+    background: transparent;
+}
+
+#cpu, 
+#battery, 
+#pulseaudio, 
+#network, 
+#clock {
+    margin: 0 7.5px;
+    color: @foreground;
 }
 
 #clock {
-    font-weight: bold;
-    color: #FFFFFF;
+    color: @accent;
 }
 
-#tray > * {
-    min-height: 14px;
+#battery.critical {
+    color: #BF616A;
 }

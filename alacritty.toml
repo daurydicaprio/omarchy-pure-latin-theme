@@ -1,35 +1,33 @@
-# ------------------------------------------------------------
-# Theme: Pure-Latin v2.0 - Alacritty Config
-# ------------------------------------------------------------
+# Pure-Latin v5.2 - Alacritty (Muted Industrial)
+[window]
+padding = { x = 12, y = 12 }
+decorations = "None"
+opacity = 0.75
 
-[colors]
-draw_bold_text_with_bright_colors = true
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+size = 11.0
 
 [colors.primary]
-background = '#262A33' # Primary BG
-foreground = '#D3DEE9' # Primary Text
+background = "#0F1115"
+foreground = "#E2E4E9"
 
-[colors.cursor]
-text = '#262A33'
-cursor = '#5E81AC' # Primary Accent
-
-# Palette (Usando colores de tu tema)
 [colors.normal]
-black = '#1E222A' # Base
-red = '#BF616A'   # Error
-green = '#A3BE8C' # Success
-yellow = '#EBCB8B' # Warning
-blue = '#5E81AC'
-magenta = '#8A7A8A'
-cyan = '#88C0D0'
-white = '#D3DEE9'
+black = "#0F1115"
+red = "#A67C7C"
+green = "#869686"
+yellow = "#B3A686"
+blue = "#7D8C99"
+magenta = "#9E90A1"
+cyan = "#7D9999"
+white = "#E2E4E9"
 
 [colors.bright]
-black = '#333842'
-red = '#BF616A'
-green = '#A3BE8C'
-yellow = '#EBCB8B'
-blue = '#81A1C1'
-magenta = '#8A7A8A'
-cyan = '#88C0D0'
-white = '#D3DEE9'
+black = "#4B515D"
+red = "#A67C7C"
+green = "#869686"
+yellow = "#B3A686"
+blue = "#7D8C99"
+magenta = "#9E90A1"
+cyan = "#7D9999"
+white = "#FFFFFF"

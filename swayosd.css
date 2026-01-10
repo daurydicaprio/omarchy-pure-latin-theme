@@ -1,26 +1,27 @@
-/* ------------------------------------------------------------
- * Pure-Latin v2.0 - SwayOSD Stylesheet
- * ------------------------------------------------------------ */
+/* Pure-Latin v5.2 - SwayOSD (Sharp HUD) */
+@define-color background-color rgba(15, 17, 21, 0.98);
+@define-color border-color #FFFFFF;
+
 window {
-    background: rgba(38, 42, 51, 0.95);
-    border: 2px solid #5e81ac;
     border-radius: 0px;
+    border: 2px solid @border-color;
+    background-color: @background-color;
 }
 
-#container {
-    padding: 10px;
+label {
+    font-family: 'Inter', 'JetBrainsMono Nerd Font';
+    font-size: 11pt;
+    color: #FFFFFF;
 }
 
-#label {
-    color: #d3dee9;
-    font-family: "JetBrainsMono Nerd Font";
+image { color: #FFFFFF; }
+
+progressbar {
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-#bar {
-    background: #333842;
-    outline: 1px solid #4c566a;
-}
-
-#level {
-    background: #81a1c1; /* Slightly brighter blue for clarity */
+progress {
+    background-color: #FFFFFF;
+    border-radius: 0px;
 }

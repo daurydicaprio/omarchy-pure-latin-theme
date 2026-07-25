@@ -4,6 +4,8 @@
 
 A high-contrast, distraction-free theme built for Omarchy Linux. Engineered with a strict dark aesthetic, razor-sharp geometry, and low-fatigue terminal accents for peak focus.
 
+![Preview](preview.png)
+
 ---
 
 ## Features

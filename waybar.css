@@ -1,28 +1,20 @@
 /* ------------------------------------------------------------
  * Pure-Latin v5.2 - Waybar (Minimalist Clone)
- * Strategy: White-Man structure with Carbon palette
  * ------------------------------------------------------------ */
-
-/* 1. VARIABLE DEFINITIONS */
 @define-color foreground #E2E4E9;
-@define-color accent     #FFFFFF;
-@define-color bar_bg     rgba(15, 17, 21, 0.70);
+@define-color accent #FFFFFF;
+@define-color bar_bg rgba(15, 17, 21, 0.70);
 
-/* 2. GLOBAL TEXT STYLING */
 * {
     border: none;
     font-family: "Inter", "Roboto", "Noto Sans", "JetBrainsMono Nerd Font", sans-serif;
     font-size: 11px;
     font-weight: bold;
-    
-    /* Subtle shadow for clarity without bloat */
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    
     padding: 0;
-    margin: 0; 
+    margin: 0;
 }
 
-/* 3. BASE WINDOW STYLES */
 window#waybar {
     background-color: transparent;
 }
@@ -32,30 +24,24 @@ window#waybar > box {
     color: @foreground;
     margin: 8px 8px 0 8px;
     border-radius: 6px;
-    /* Border removed for absolute minimalism */
     border: none;
     min-height: 30px;
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
-/* 4. SYSTEM MODULES STYLING */
 #workspaces button {
     padding: 0 6px;
     margin: 0 1.5px;
-    color: rgba(226, 228, 233, 0.4); 
+    color: rgba(226, 228, 233, 0.4);
 }
 
 #workspaces button.active {
-    color: @accent; 
+    color: @accent;
     background: transparent;
 }
 
-#cpu, 
-#battery, 
-#pulseaudio, 
-#network, 
-#clock {
+#cpu, #battery, #pulseaudio, #network, #clock {
     margin: 0 7.5px;
     color: @foreground;
 }

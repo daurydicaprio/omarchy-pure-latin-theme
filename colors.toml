@@ -1,24 +1,31 @@
-# Pure-Latin v5.2 - Master Color Definition (Muted Industrial)
+# Pure-Latin v5.3 - Master Color Definition
 accent = "#FFFFFF"
 cursor = "#FFFFFF"
+
+# Primary colors
 foreground = "#E2E4E9"
-background = "#0F1115"
+background = "#07080A"
 
-# ANSI Palette (Soft Muted Colors)
-color0 = "#0F1115" # Black
-color1 = "#A67C7C" # Soft Red
-color2 = "#869686" # Soft Green
-color3 = "#B3A686" # Soft Yellow
-color4 = "#7D8C99" # Soft Blue
-color5 = "#9E90A1" # Soft Magenta
-color6 = "#7D9999" # Soft Cyan
-color7 = "#E2E4E9" # White
+# Selection colors
+selection_foreground = "#FFFFFF"
+selection_background = "#1A1D24"
 
-color8 = "#4B515D" # Bright Black
-color9 = "#A67C7C"
-color10 = "#869686"
-color11 = "#B3A686"
-color12 = "#7D8C99"
-color13 = "#9E90A1"
-color14 = "#7D9999"
+# Normal colors (ANSI 0-7)
+color0 = "#353942"
+color1 = "#8C5C5C"
+color2 = "#5C6B5C"
+color3 = "#8C7E5C"
+color4 = "#5C6B7C"
+color5 = "#785C7D"
+color6 = "#5C7878"
+color7 = "#E2E4E9"
+
+# Bright colors (ANSI 8-15)
+color8 = "#353942"
+color9 = "#8C5C5C"
+color10 = "#5C6B5C"
+color11 = "#8C7E5C"
+color12 = "#5C6B7C"
+color13 = "#785C7D"
+color14 = "#5C7878"
 color15 = "#FFFFFF"

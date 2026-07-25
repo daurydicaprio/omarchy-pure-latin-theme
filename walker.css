@@ -1,33 +1,74 @@
-/* Pure-Latin v5.2 - Walker (Square & Sharp) */
-@define-color base rgba(15, 17, 21, 0.95);
+/* ------------------------------------------------------------
+ * Pure-Latin v5.3 - Walker Launcher
+ * Dark Industrial Theme
+ * ------------------------------------------------------------ */
 
+/* Redefining master variables for Dark Industrial */
+@define-color base          #07080A;
+@define-color text          #E2E4E9;
+@define-color border        #FFFFFF;
+@define-color selected-text #FFFFFF;
+@define-color background    #07080A;
+
+/* Global reset */
 * {
     all: unset;
-    font-family: "Inter", "JetBrainsMono Nerd Font";
+    font-family: "Inter", "sans-serif";
     font-size: 14px;
+    color: @text;
 }
 
-window {
-    background: transparent;
-}
-
+/* Main container */
 .box-wrapper {
     background: @base;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 0px; /* Force industrial square */
-    padding: 12px;
+    border: 2px solid @border;
+    border-radius: 0px;
+    padding: 20px;
 }
 
+/* Search container */
 .search-container {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 12px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
     margin-bottom: 10px;
     border-radius: 0px;
 }
 
-child:selected {
-    background: rgba(255, 255, 255, 0.1);
-    border-left: 4px solid #FFFFFF; /* Differentiation: Left border instead of bottom */
+/* Selection logic with industrial indicator border */
+child:selected .item-box {
+    background: #1A1D24;
+    border-left: 3px solid #FFFFFF;
+    border-radius: 0px;
 }
 
-.item-box { padding: 8px 16px; color: #E2E4E9; }
+child:selected .item-box * {
+    color: @selected-text;
+}
+
+/* Layout and spacing */
+.item-box {
+    padding: 10px 14px;
+}
+
+/* Icons with opacity/grayscale control */
+.item-image {
+    margin-right: 14px;
+    -gtk-icon-size: 20px;
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+
+child:selected .item-image {
+    opacity: 1.0;
+    filter: none;
+}
+
+/* Hide subtext */
+.item-subtext {
+    font-size: 0px;
+    min-height: 0px;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0;
+}

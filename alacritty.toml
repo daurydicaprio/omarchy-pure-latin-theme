@@ -1,33 +1,31 @@
-# Pure-Latin v5.2 - Alacritty (Muted Industrial)
-[window]
-padding = { x = 12, y = 12 }
-decorations = "None"
-opacity = 0.75
-
-[font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-size = 11.0
-
 [colors.primary]
-background = "#0F1115"
+background = "#07080A"
 foreground = "#E2E4E9"
 
+[colors.cursor]
+cursor = "#FFFFFF"
+text = "#07080A"
+
+[colors.selection]
+background = "#1A1D24"
+text = "#FFFFFF"
+
 [colors.normal]
-black = "#0F1115"
-red = "#A67C7C"
-green = "#869686"
-yellow = "#B3A686"
-blue = "#7D8C99"
-magenta = "#9E90A1"
-cyan = "#7D9999"
+black = "#353942"
+red = "#8C5C5C"
+green = "#5C6B5C"
+yellow = "#8C7E5C"
+blue = "#5C6B7C"
+magenta = "#785C7D"
+cyan = "#5C7878"
 white = "#E2E4E9"
 
 [colors.bright]
-black = "#4B515D"
-red = "#A67C7C"
-green = "#869686"
-yellow = "#B3A686"
-blue = "#7D8C99"
-magenta = "#9E90A1"
-cyan = "#7D9999"
+black = "#353942"
+red = "#8C5C5C"
+green = "#5C6B5C"
+yellow = "#8C7E5C"
+blue = "#5C6B7C"
+magenta = "#785C7D"
+cyan = "#5C7878"
 white = "#FFFFFF"

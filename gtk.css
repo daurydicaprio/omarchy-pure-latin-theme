@@ -1,23 +1,21 @@
-/* Pure-Latin v5.2 - GTK/GNOME Stylesheet (Industrial) */
-@define-color primary_bg        #0F1115;
-@define-color secondary_bg      #1A1D23;
-@define-color tertiary_bg       #363B46;
-@define-color text_primary      #E2E4E9;
-@define-color primary_accent    #FFFFFF;
-@define-color success           #869686;
-@define-color warning           #B3A686;
-@define-color error             #A67C7C;
+/* ------------------------------------------------------------
+ * Pure-Latin v5.3 - Custom GTK Overrides
+ * ------------------------------------------------------------ */
 
-@define-color window_bg_color      @primary_bg;
-@define-color window_fg_color      @text_primary;
-@define-color view_bg_color        @primary_bg;
-@define-color view_fg_color        @text_primary;
-@define-color headerbar_bg_color   @secondary_bg;
-@define-color headerbar_fg_color   @text_primary;
-@define-color card_bg_color        @secondary_bg;
-@define-color accent_color         @primary_accent;
+window,
+.navigation-bar,
+headerbar,
+dialog {
+    border-radius: 0px !important;
+}
 
-@import url("resource:///org/gnome/Adwaita/gtk-dark.css");
+scrollbar slider {
+    min-width: 4px;
+    min-height: 4px;
+    border-radius: 0px !important;
+    background-color: rgba(255, 255, 255, 0.2);
+}
 
-.view { border-radius: 0; }
-headerbar { border-radius: 0; }
+scrollbar slider:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}

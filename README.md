@@ -1,6 +1,6 @@
-# Pure-Latin Theme for Omarchy v5.2 (Industrial)
+# Pure-Latin Theme for Omarchy v5.4 (Industrial)
 
-A complete, high-productivity ecosystem for **Omarchy Arch Linux**. Built on a foundation of **Carbon Black** (#0F1115) and **Aluminum White** (#E2E4E9), this theme is optimized for the Dell XPS 9360 and focus-intensive workflows.
+A complete, high-productivity ecosystem for **Omarchy Arch Linux**. Built on a foundation of **Carbon Black** (`#07080A`) and **Aluminum White** (`#E2E4E9`), this theme is optimized for the Dell XPS 9360 and focus-intensive workflows.
 
 Created by **Daury DiCaprio** (daurydicaprio.com) | Official: omarchy.org
 
@@ -14,15 +14,15 @@ Created by **Daury DiCaprio** (daurydicaprio.com) | Official: omarchy.org
 * **Square Geometry:** Strict rounding = 0 across the entire UI for a sharp, architectural look.
 * **Discord Integration:** Custom System24 (Vencord) skin included for a unified experience.
 * **Hardware Tuned:** Optimized for Dell XPS 9360 (HiDPI) and Dell U2417H monitor.
-* **Extended Software:** Styles for Hyprland, Waybar, Walker, Mako, Btop, Alacritty, Kitty, and Ghostty.
+* **Extended Software:** Styles for Hyprland, Hyprlock, Waybar, Walker, Mako, Btop, Alacritty, Kitty, and Ghostty.
 
 ## 🎨 Color Palette (Carbon Industrial)
 
 | Role | Hex | Description |
 | :--- | :--- | :--- |
-| Background | #0F1115 | Carbon Base |
+| Background | #07080A | Carbon Base |
 | Foreground | #E2E4E9 | Aluminum White |
-| Selection | #363B46 | Deep Steel |
+| Selection | #1A1D24 | Deep Steel |
 | Accent | #FFFFFF | Pure Contrast |
 
 ## 🖼️ Screenshots

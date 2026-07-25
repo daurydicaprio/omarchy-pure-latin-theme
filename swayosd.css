@@ -1,27 +1,40 @@
-/* Pure-Latin v5.2 - SwayOSD (Sharp HUD) */
-@define-color background-color rgba(15, 17, 21, 0.98);
-@define-color border-color #FFFFFF;
+/* ------------------------------------------------------------
+ * Pure-Latin v5.3 - SwayOSD (Dark Industrial)
+ * Adapted from White-Man Architecture
+ * ------------------------------------------------------------ */
 
+/* 1. VARIABLE DEFINITIONS */
+@define-color background-color #07080A;
+@define-color border-color     #FFFFFF;
+@define-color label            #E2E4E9;
+@define-color image            #FFFFFF;
+@define-color progress         #FFFFFF;
+
+/* 2. MAIN WINDOW STYLING */
 window {
     border-radius: 0px;
     border: 2px solid @border-color;
     background-color: @background-color;
 }
 
+/* 3. LABEL AND ICON STYLING */
 label {
-    font-family: 'Inter', 'JetBrainsMono Nerd Font';
+    font-family: 'Inter', 'JetBrainsMono Nerd Font', sans-serif;
     font-size: 11pt;
-    color: #FFFFFF;
+    color: @label;
 }
 
-image { color: #FFFFFF; }
+image {
+    color: @image;
+}
 
+/* 4. PROGRESS BAR STYLING */
 progressbar {
     border-radius: 0px;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
 progress {
-    background-color: #FFFFFF;
+    background-color: @progress;
     border-radius: 0px;
 }
